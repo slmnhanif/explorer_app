@@ -1,0 +1,15 @@
+// backend/tsconfig.json
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",          // Express biasanya pakai commonjs
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",              // (bila nanti kamu ingin build JS secara manual)
+    "rootDir": "src"
+  },
+  "include": ["src"]
+}
